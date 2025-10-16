@@ -1,0 +1,87 @@
+# === FRONTEND IGNORE RULES ===
+# Assuming your frontend folder is named "frontend"
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+
+# Diagnostic reports
+frontend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+frontend/pids
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+
+# Dependencies
+frontend/node_modules/
+frontend/jspm_packages/
+frontend/bower_components/
+
+# Build output
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.temp/
+frontend/.svelte-kit/
+frontend/.nuxt/
+frontend/.docusaurus/
+frontend/.vitepress/dist
+frontend/.vitepress/cache
+
+# TypeScript cache
+frontend/*.tsbuildinfo
+
+# Testing / Coverage
+frontend/coverage/
+frontend/.nyc_output/
+frontend/lib-cov/
+
+# npm / yarn / pnpm caches
+frontend/.npm/
+frontend/.yarn-integrity
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/sdks
+!frontend/.yarn/versions
+
+# Linting / Style / Editor caches
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.node_repl_history
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# IDE / Editor files
+frontend/.vscode/
+frontend/.idea/
+frontend/*.swp
+frontend/*.swo
+frontend/*.swn
+
+# System files
+frontend/.DS_Store
+frontend/Thumbs.db
+
+# Package outputs
+frontend/*.tgz
+
+# Vercel / Deployment
+frontend/.vercel/
+
+# Others
+frontend/*.local
